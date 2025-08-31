@@ -8,8 +8,7 @@ from aiogram.enums import ParseMode
 from src.controllers.user_controllers import user_router
 
 
-# TOKEN = getenv("BOT_TOKEN")
-TOKEN = "7686823837:AAEY0x5Tyj23ErLc6gDBvAtC3M0BlkQutOM"
+TOKEN = getenv("BOT_TOKEN")
 
 def register_routers(dp: Dispatcher) -> None:
     "Regiter routers"
